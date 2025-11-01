@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\boris\\Desktop\\AspNetCoreApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A8E73B54-E18B-4EFD-BD8E-DE37DD10778F}|AspNetCoreApp\\AspNetCoreApp.csproj|c:\\users\\boris\\desktop\\aspnetcoreapp\\aspnetcoreapp\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A8E73B54-E18B-4EFD-BD8E-DE37DD10778F}|AspNetCoreApp\\AspNetCoreApp.csproj|solutionrelative:aspnetcoreapp\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\boris\\Desktop\\AspNetCoreApp\\AspNetCoreApp\\.gitignore",
+              "RelativeDocumentMoniker": "AspNetCoreApp\\.gitignore",
+              "ToolTip": "C:\\Users\\boris\\Desktop\\AspNetCoreApp\\AspNetCoreApp\\.gitignore",
+              "RelativeToolTip": "AspNetCoreApp\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-01T08:04:31.496Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
