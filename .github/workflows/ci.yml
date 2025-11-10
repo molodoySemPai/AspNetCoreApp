@@ -1,0 +1,27 @@
+name: CI Pipeline
+
+# Запускать workflow при push в main и при создании pull request
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Шаг 1: Получить код из репозитория
+      - name: Check out repository code
+        uses: actions/checkout@v4
+
+      # Шаг 2: Собрать Docker образ
+      - name: Build Docker image
+        run: |
+          docker build -t myapp:test .
+          echo "Docker image built successfully!"
+
+      # Шаг 3: Проверить, что контейнер запускается
+      - name: Test container
+        run: |
+          docker run --rm myapp:test echo "Container works!"
